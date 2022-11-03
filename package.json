@@ -1,0 +1,22 @@
+{
+  "name": "leads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ajar/marker": "^1.3.3",
+    "nodemon": "^2.0.20"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "files/*.json"
+    ]
+  }
+}
